@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-thugon{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #212529;
+}
+
+.navbar .navbar-nav .nav-item{
+    margin-right: 1rem;
+}
+
+.navbar .navbar-nav .nav-item:last-child{
+    margin-right: 0;
+}
+
+.navbar .navbar-nav .nav-item .nav-link{
+    color: #fff;
+}
+
+header.head {
+    padding-top: 17rem;
+    padding-bottom: 12.5rem;
+    text-align: center;
+    color: #fff;
+    background-image: url(./image/header-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+}
+
+header.head h2{
+    font-size: 2.25rem;
+    font-style: italic;
+    margin-bottom: 2rem;
+}
+
+header.head h1{
+    font-size: 5rem;
+    font-weight: bold;
+    margin-bottom: 4rem;
+}
+
+header.head button.btn-warning{
+    color: #fff;
+    font-weight: bold;
+    background-color: #ffc800;
+    border-color: #ffc800;
+}
+
+button.btn-warning:focus{
+    color: #fff;
+}
+
+.services,
+.portfolio,
+.about,
+.amazing,
+.contact{
+    padding: 6rem 0;
+}
+
+.services h2,
+.portfolio h2,
+.about h2,
+.amazing h2,
+.contact h2{
+    font-weight: bold;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.services h3,
+.portfolio h3,
+.about h3,
+.amazing h3,
+.contact h3{
+    font-style: italic;
+    font-weight: 400;
+    font-size: 1rem;
+    margin-bottom: 4rem;
+}
+
+.col-lg-4 .portfolio-text{
+    background-color: #fff;
+    padding: 1.5rem;
+}
+
+.col-lg-4 .portfolio-text h4{
+    font-weight: bold;
+}
+
+.col-lg-4 .portfolio-text span{
+    font-style: italic;
+}
+
+.portfolio .portfolio-item{
+    max-width: 26rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.portfolio .portfolio-item .portfolio-link{
+    position: relative;
+    display: block;
+    margin: 0 auto;
+}
+
+.portfolio .portfolio-item .portfolio-link:hover .portfolio-hover{
+    opacity: 1;
+}
+
+.portfolio .portfolio-item .portfolio-link .portfolio-hover{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 200, 0, 0.9);
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity ease-in-out 0.25s;
+}
+
+.portfolio .portfolio-item .portfolio-link .portfolio-hover i{
+    color: #fff;
+    font-size: 3rem;
+}
+
+.timeline{
+    position: relative;
+    list-style: none;
+}
+
+.timeline::before{
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    content: " ";
+    width: 3px;
+    height: 50rem;
+    background-color: #eeeeee;
+    left: 48%;
+    margin-left: -1.5px;
+}
+
+.timeline li{
+    padding-bottom: 15rem;
+}
+
+.timeline img
+{
+    position: absolute;
+    left: 40%;
+    width: 15%;
+    border: 7px solid #e9ecef;
+    border-radius: 100%;
+}
+
+
+.timeline-content-left{
+    float: left;
+    width: 40%;
+    text-align: right;
+    padding-right: 2rem;
+}
+
+.timeline-content-right{
+    float: right;
+    width: 40%;
+}
+
+.timeline-content-left h4,
+.timeline-content-right h4{
+    font-weight: bold;
+}
+
+
+.team img{
+    width: 14rem;
+    height: 14rem;
+    border: 0.5rem solid #ccc;
+}
+
+.btn-social {
+    height: 2.5rem;
+    width: 2.5rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    border-radius: 100%;
+}
+
+.amazing .team a,
+.footer .col-lg-4 a{
+    text-decoration: none;
+}
+
+.amazing .team h4{
+    margin-top: 2rem;
+    margin-bottom: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.amazing .team p{
+    font-size: 1rem;
+}
+
+.contact{
+    background-color: #212529;
+    background-image: url(./image/map-image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.contact h2{
+    color: #fff;
+}
+
+.img-brand{
+    height: 3rem!important;
+}
+
+.form-action{
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border-radius: 0.5rem;
+    border: 1px solid #ced4da;
+}
+
+input::placeholder,
+textarea::placeholder{
+    color: #ccc;
+    font-weight: bold;
+}
+
+textarea{
+    min-height: 15rem;
+}
+
+.container button,
+.send button{
+    color: #fff;
+    font-weight: bold;
+    padding: 1.5rem 3rem;
+}
+
+.container button:active,
+.container button:hover,
+.send button:active,
+.send button:hover{
+    color: #fff!important;
+}
